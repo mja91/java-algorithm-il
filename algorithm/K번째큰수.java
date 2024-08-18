@@ -35,6 +35,11 @@ public class K번째큰수 {
             }
         }
 
+        // tSet.remove()
+        // tSet.size()
+        // tSet.first()
+        // tSet.last()
+
         int result = -1;
         int count = 0;
         for (Integer set : tSet) {
