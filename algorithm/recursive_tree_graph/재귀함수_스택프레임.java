@@ -1,4 +1,4 @@
-package algorithm.dfs;
+package algorithm.recursive_tree_graph;
 
 public class 재귀함수_스택프레임 {
 

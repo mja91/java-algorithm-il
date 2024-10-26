@@ -1,4 +1,4 @@
-package algorithm;
+package algorithm.hashMap_treeSet;
 
 import java.io.BufferedReader;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package algorithm;
+package algorithm.sorting_searching;
 
 import java.io.BufferedReader;
 import java.io.IOException;
