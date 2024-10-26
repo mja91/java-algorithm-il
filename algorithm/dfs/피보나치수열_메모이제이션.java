@@ -1,6 +1,6 @@
-package algorithm.dfsbfs;
+package algorithm.dfs;
 
-public class 피보나치수열 {
+public class 피보나치수열_메모이제이션 {
 
     static int[] arr;
 

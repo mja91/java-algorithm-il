@@ -1,6 +1,6 @@
-package algorithm.dfsbfs;
+package algorithm.dfs;
 
-public class DFS {
+public class 재귀함수_스택프레임 {
 
     public void dfs(int n) {
         if (n > 0) {
@@ -10,7 +10,7 @@ public class DFS {
     }
 
     public static void main(String[] args) {
-        DFS dfs = new DFS();
+        재귀함수_스택프레임 dfs = new 재귀함수_스택프레임();
         dfs.dfs(3);
     }
 }

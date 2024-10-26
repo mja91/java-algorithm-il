@@ -1,4 +1,4 @@
-package algorithm.dfsbfs;
+package algorithm.dfs;
 
 public class 팩토리얼 {
 

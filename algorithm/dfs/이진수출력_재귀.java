@@ -1,6 +1,6 @@
-package algorithm.dfsbfs;
+package algorithm.dfs;
 
-public class DFS2 {
+public class 이진수출력_재귀 {
 
     public void dfs(int n) {
         if (n > 0) {
@@ -10,7 +10,7 @@ public class DFS2 {
     }
 
     public static void main(String[] args) {
-        DFS2 dfs2 = new DFS2();
+        이진수출력_재귀 dfs2 = new 이진수출력_재귀();
         dfs2.dfs(11);
     }
 }
