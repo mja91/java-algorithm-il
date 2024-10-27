@@ -5,6 +5,8 @@ import java.util.Queue;
 
 public class 이진트리순회_BFS {
 
+    Node root;
+
     public static class Node {
         int val;
         이진트리순회_BFS.Node lt;
@@ -38,8 +40,6 @@ public class 이진트리순회_BFS {
             System.out.println();
         }
     }
-
-    Node root;
 
     public static void main(String[] args) {
         이진트리순회_BFS tree = new 이진트리순회_BFS();
