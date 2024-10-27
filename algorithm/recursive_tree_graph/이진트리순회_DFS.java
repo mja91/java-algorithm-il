@@ -1,6 +1,6 @@
 package algorithm.recursive_tree_graph;
 
-public class 이진트리순회 {
+public class 이진트리순회_DFS {
 
     public static class Node {
         int val;
@@ -26,7 +26,7 @@ public class 이진트리순회 {
     }
 
     public static void main(String[] args) {
-        이진트리순회 tree = new 이진트리순회();
+        이진트리순회_DFS tree = new 이진트리순회_DFS();
         tree.root = new Node(1);
         tree.root.lt = new Node(2);
         tree.root.rt = new Node(3);
