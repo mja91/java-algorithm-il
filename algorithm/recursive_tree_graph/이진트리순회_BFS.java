@@ -43,13 +43,13 @@ public class 이진트리순회_BFS {
 
     public static void main(String[] args) {
         이진트리순회_BFS tree = new 이진트리순회_BFS();
-        tree.root = new 이진트리순회_BFS.Node(1);
-        tree.root.lt = new 이진트리순회_BFS.Node(2);
-        tree.root.rt = new 이진트리순회_BFS.Node(3);
-        tree.root.lt.lt = new 이진트리순회_BFS.Node(4);
-        tree.root.lt.rt = new 이진트리순회_BFS.Node(5);
-        tree.root.rt.lt = new 이진트리순회_BFS.Node(6);
-        tree.root.rt.rt = new 이진트리순회_BFS.Node(7);
+        tree.root = new Node(1);
+        tree.root.lt = new Node(2);
+        tree.root.rt = new Node(3);
+        tree.root.lt.lt = new Node(4);
+        tree.root.lt.rt = new Node(5);
+        tree.root.rt.lt = new Node(6);
+        tree.root.rt.rt = new Node(7);
         tree.bfs(tree.root);
     }
 }
