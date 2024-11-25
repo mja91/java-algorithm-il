@@ -46,10 +46,10 @@ public class 수열_추측하기 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        n = sc.nextInt();
-        f = sc.nextInt();
-        b = new int[n]; // 최상단 수열
-        p = new int[n]; // 각 수열의 숫자들 곱해진 횟수
+        n = sc.nextInt(); // 최상단 숫자 개수
+        f = sc.nextInt(); // 최상단 숫자 개수 총합
+        b = new int[n]; // 조합 결과를 저장할 배열
+        p = new int[n]; // 결과 수열
         check = new int[n+1];
         for (int i=0; i<n; i++) {
             b[i] = combi(n-1, i);
