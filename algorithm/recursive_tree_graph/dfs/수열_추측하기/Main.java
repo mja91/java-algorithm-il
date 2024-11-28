@@ -2,7 +2,7 @@ package algorithm.recursive_tree_graph.dfs.수열_추측하기;
 
 import java.util.Scanner;
 
-public class 수열_추측하기 {
+public class Main {
 
     private static int[] b, p, check;
     private static int n, f;

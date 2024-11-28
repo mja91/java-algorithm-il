@@ -4,7 +4,7 @@ import java.util.Scanner;
 import java.util.Arrays;
 import java.util.Collections;
 
-public class 동전교환 {
+public class Main {
 
     private static int n;
     private static int m;

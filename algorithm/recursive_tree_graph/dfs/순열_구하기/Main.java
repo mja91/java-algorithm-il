@@ -2,7 +2,7 @@ package algorithm.recursive_tree_graph.dfs.순열_구하기;
 
 import java.util.Scanner;
 
-public class 순열_구하기 {
+public class Main {
 
     private static int n, m;
     private static int[] pm, arr, check;

@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class 미로_최단거리_통로 {
+public class Main {
 
     private static class Point {
         public int x, y;

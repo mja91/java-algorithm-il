@@ -2,7 +2,7 @@ package algorithm.recursive_tree_graph.dfs.최대점수_구하기;
 
 import java.util.Scanner;
 
-public class 최대점수_구하기 {
+public class Main {
 
     private static int answer = Integer.MIN_VALUE;
     private static int n;

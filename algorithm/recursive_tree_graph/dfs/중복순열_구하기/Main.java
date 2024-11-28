@@ -2,7 +2,7 @@ package algorithm.recursive_tree_graph.dfs.중복순열_구하기;
 
 import java.util.Scanner;
 
-public class 중복순열_구하기 {
+public class Main {
 
     private static int[] pm;
     private static int n;

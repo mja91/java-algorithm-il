@@ -2,7 +2,7 @@ package algorithm.recursive_tree_graph.dfs.조합수_메모이제이션;
 
 import java.util.Scanner;
 
-public class 조합수_메모이제이션 {
+public class Main {
 
     private static int[][] dy = new int[35][35];
 
