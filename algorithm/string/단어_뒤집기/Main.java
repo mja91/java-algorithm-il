@@ -9,13 +9,13 @@ public class Main {
         int n = sc.nextInt();
         String[] arr = new String[n];
         for (int i=0; i<n; i++) {
-            arr[i] = sc.next();
+            arr[i] = sc.next(); // 전체 단어 arr 담기
         }
 
         for (String x : arr) {
             StringBuilder sb = new StringBuilder();
-            char[] ca = x.toCharArray();
-            for (int i=ca.length-1; i>=0; i--) {
+            char[] ca = x.toCharArray(); // 해당 순서 단어 쪼개기
+            for (int i=ca.length-1; i>=0; i--) { // 맨 뒤 문자열부터 더하기
                 sb.append(ca[i]);
             }
             System.out.println(sb);
