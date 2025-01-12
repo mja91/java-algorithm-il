@@ -8,7 +8,7 @@ public class Main {
         String answer = "";
         char[] arr = input.toCharArray();
         for (char c : arr) {
-            if (c >= 97 && c <= 122) {
+            if (c >= 97 && c <= 122) { // 97 ~ 122 : 소문자, 소문자 ASCII Code - 32 : 대문자
                 answer += (char)(c-32);
             } else {
                 answer += (char)(c+32);
