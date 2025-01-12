@@ -7,7 +7,7 @@ public class Main {
     static int solution(String[] arr, String c) {
         int answer = 0;
         for (String x : arr) {
-            if (x.equalsIgnoreCase(c)) {
+            if (x.equalsIgnoreCase(c)) { // 대소문자 미구분 시 String의 .equalsIgnoreCase() 활용
                 answer++;
             }
         }
