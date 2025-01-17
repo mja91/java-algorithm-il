@@ -22,8 +22,8 @@ public class Main {
             int temp = arr[i];
             int revs = 0;
             while (temp > 0) {
-                int x = temp % 10;
-                revs = revs * 10 + x;
+                int x = temp % 10;    // 마지막 자리 구하기
+                revs = revs * 10 + x; // 뒤집은 숫자에 마지막 자리 더하기
                 temp = temp / 10;
             }
             if (isPrime(revs)) {
