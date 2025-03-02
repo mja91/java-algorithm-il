@@ -2,7 +2,7 @@ package algorithm.string.가장_짧은_문자_거리;
 
 import java.util.*;
 
-public class Prac {
+public class Review {
 
     static void solution(String s, String t) {
         char[] arr = s.toCharArray();

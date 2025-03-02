@@ -2,7 +2,7 @@ package algorithm.string.단어_뒤집기;
 
 import java.util.*;
 
-public class Prac {
+public class Review {
 
     static String solution(String input) {
         StringBuilder sb = new StringBuilder();
